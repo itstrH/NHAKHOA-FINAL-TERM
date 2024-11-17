@@ -6,7 +6,7 @@
 
 html {
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .clear {
@@ -48,7 +48,7 @@ html {
 
 #contact-content i {
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* NAV */
@@ -93,7 +93,7 @@ html {
 #nav .subnav {
     display: none; 
     position: absolute;
-    left: 0;
+    left: 20%;
     top: 100%;
     background-color: #056CB6;
     width: 190px;
@@ -141,5 +141,13 @@ html {
 #about {
     width: 100%;
     height: 600px;
-    background-color: #000;
+    background-color: #fff;
+}
+
+.about-section img {
+    width: 500px;
+    height: 418px;
+    margin-top: 120px;
+    margin-left: 250px;
+    border: 2px solid #F8FAF5
 }
