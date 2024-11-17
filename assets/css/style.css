@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#main {}
+
+#contact-line {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    background: #056CB6;
+}
+
+#contact-content {
+    width: 100%;
+    display: block;
+    margin-left: 22%;
+}
+
+#contact-content p {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding-right: 20px;
+    margin: 16px 0;
+}
+
+#contact-content i {
+    margin-right: 10px;
+}
