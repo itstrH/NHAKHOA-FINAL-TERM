@@ -3,24 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
-html{}
-
-body{
-    font-size: 14px;
-    /* font-family: 'Roboto', sans-serif; */
+ul{list-style-type: none;}
+a{text-decoration: none;}
+/*  */
+html {
+    /* font-size: 62.5%; */
+}
+body {
+    /* font-size: 1.6rem; */
 }
 
 .clear{
     clear: both;
 }
-
-
-#main{}
-
+.main-content {width: 100%;}
 /* HEADER */
-#header{
+.header{
     position: fixed;
     top:0;
     left: 0;
@@ -43,7 +44,6 @@ body{
 
 #contact-content p{
     display: inline-block;
-    font-size: 15px;
     color: #fff;
     padding-right: 20px;
     margin: 16px 0;
