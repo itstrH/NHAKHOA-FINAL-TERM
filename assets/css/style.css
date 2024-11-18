@@ -58,6 +58,8 @@ body {
     height: 112px;
     background-color: #fff;
     display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 #nav li a, .subnav li a{
@@ -65,8 +67,8 @@ body {
 }
 
 #nav{
-    margin-left: 32%;
-    margin-top: 28px;
+        /* margin-left: 32%; */
+        margin-top: 28px;
 }
 
 #nav > li{
@@ -120,9 +122,7 @@ body {
 }
 
 #nav-bar img{
-    position: absolute;
-    top: 80px;
-    left: 15%;
+    width: 10%;
 }
 
 #nav li:hover .subnav{
